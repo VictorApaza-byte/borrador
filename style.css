@@ -1,0 +1,57 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  background: rgb(10, 17, 58);
+  background-position: center;
+  background-size: cover;
+
+  display: grid;
+  place-items: center;
+}
+
+/* === INICIO DEL CÓDIGO === */
+
+.article {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  width: 200px;
+  height: 200px;
+  border: 1px solid orangered;
+}
+
+.parrafo {
+  color: aqua;
+  font-weight: bold;
+  font-size: 18px;
+}
