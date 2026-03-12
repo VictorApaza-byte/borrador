@@ -61,3 +61,22 @@ img {
   border-radius: .3rem;
   box-shadow: 0 0 20px white;
 }
+
+.btn {
+  background: transparent;
+}
+
+.btn a {
+  border-radius: .5rem;
+  padding: 10px 20px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all .3s linear;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
